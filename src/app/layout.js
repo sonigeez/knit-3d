@@ -20,6 +20,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* <script src="//cdn.delight-vr.com/latest/dl8-9ec78c241d3706ae66d6c851976f6d877878e89c.js" async></script> */}
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
